@@ -18,7 +18,7 @@ define('NONCE_SALT',       '-48cg|O;@+bb2>zEpQHPz:;wOJXP-%fjsfQHN`}fa| }zGNl}p.-
 
 
 
-define('WP_HOME', 'http://localhost/gharsansar/cms');
+define('WP_HOME', 'http://localhost/slimwp/cms');
 define('WP_SITEURL', WP_HOME . '/wp/');
 
 define('WP_CONTENT_DIR', APP_ROOT . '/content');
@@ -26,7 +26,7 @@ define('WP_CONTENT_URL', WP_HOME . '/content');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'gharsansar');
+define('DB_NAME', 'slimwp');
 
 /** MySQL database username */
 define('DB_USER', 'root');
