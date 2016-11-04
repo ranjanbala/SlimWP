@@ -4,8 +4,7 @@ define('SAVEQUERIES', true);
 define('WP_DEBUG', true);
 define('SCRIPT_DEBUG', true);
 
-
-/* Authentication Unique Keys and Salts.
+ /* Authentication Unique Keys and Salts.
  * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
  */
 define('AUTH_KEY',         '=crqq| 5V+]CG0mV<3N,OK(&.v>w,#F%vMYPJtWI7GQCZr4$3@g=b0E;;c+f_k7q');
@@ -18,15 +17,16 @@ define('LOGGED_IN_SALT',   '5q=,UC< yF>S|Q<T1rNd^:Sa+EOC/Wr!;5V;]vX=)fBGHg^|2WHw
 define('NONCE_SALT',       '-48cg|O;@+bb2>zEpQHPz:;wOJXP-%fjsfQHN`}fa| }zGNl}p.-6qpC^Ii>SOXf');
 
 
-define('WP_HOME', 'http://localhost/gharsansar');
-define('WP_SITEURL', WP_HOME . '/cms/wp/');
+
+define('WP_HOME', 'http://localhost/slimwp/cms');
+define('WP_SITEURL', WP_HOME . '/wp/');
 
 define('WP_CONTENT_DIR', APP_ROOT . '/content');
 define('WP_CONTENT_URL', WP_HOME . '/content');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'gharsansar');
+define('DB_NAME', 'slimwp');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -41,7 +41,7 @@ define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', 'utf8_unicode_ci');
+define('DB_COLLATE', '');
 
 /**
  * WordPress Database Table prefix.
